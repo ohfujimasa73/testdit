@@ -9,6 +9,7 @@ private:
 	int data2;
 	int data3;
 
+
 public:
 	Data(int data, int data2, int data3);
 	~Data();
