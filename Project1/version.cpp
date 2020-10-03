@@ -68,19 +68,10 @@ int main() {
 
 	/* データ格納 */
 	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
 	/* データ表示 */
 	test.show();
-	test.addData(new Data(12, 34, 56));
-	test.addData(new Data(12, 34, 56));
-	test.addData(new Data(12, 34, 56));
-
-
-
-
 	return 0;
-	
-	
-	
-	
-
 }
