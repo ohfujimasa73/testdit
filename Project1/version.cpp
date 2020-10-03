@@ -1,37 +1,40 @@
 #include <iostream>
 using namespace std;
 
-
-class Data
-{
-private:
+typedef struct{
 	int data;
 	int data2;
 	int data3;
+}data_type;
 
+class Data
+{
+/* データ */
+private:
+	data_type data;
 
 public:
-	Data(int data, int data2, int data3);
+	Data(data_type input);
 	~Data();
 	virtual void DataShow() {
-		cout << "data:" << this->data << endl;
-		cout << "data2:" << this->data2 << endl;
-		cout << "data3:" << this->data3 << endl;
+		cout << "data:" << this->data.data << endl;
+		cout << "data2:" << this->data.data2 << endl;
+		cout << "data3:" << this->data.data3 << endl;
 	}
 };
 
-Data::Data(int data, int data2, int data3)
+Data::Data(data_type input)
 {
-	this->data = data;
-	this->data2 = data2;
-	this->data3 = data3;
+	this->data.data = input.data;
+	this->data.data2 = input.data2;
+	this->data.data3 = input.data3;
 }
 
 Data::~Data()
 {
-	this->data = 0;
-	this->data2 = 0;
-	this->data3 = 0;
+	this->data.data = 0;
+	this->data.data2 = 0;
+	this->data.data3 = 0;
 }
 
 class DataCollect {
@@ -61,17 +64,20 @@ public:
 	}
 };
 
-
 int main() {
 
 	/* データ格納変数 */
 	DataCollect test(3);
 
+	/* 入力データ */
+	data_type input = { 12,34,67 };
+
 	/* データ格納 */
-	test.addData(new Data(12, 34, 56));
-	test.addData(new Data(12, 34, 56));
-	test.addData(new Data(12, 34, 56));
-	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(input));
+	test.addData(new Data(input));
+	test.addData(new Data(input));
+	test.addData(new Data(input));
+
 	/* データ表示 */
 	test.show();
 	return 0;
