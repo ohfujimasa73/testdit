@@ -73,5 +73,9 @@ int main() {
 	test.addData(new Data(12, 34, 56));
 
 	return 0;
+	
+	
+	
+	
 
 }
