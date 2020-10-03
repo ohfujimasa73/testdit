@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "E:/testdir/testdit/Project1",
+    "command": "clang-tool -fms-extensions -fms-compatibility -fms-compatibility-version=19  -isystem \"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/include\"  -isystem \"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/atlmfc/include\"  -isystem \"C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Auxiliary/VS/include\"  -isystem \"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/ucrt\"  -isystem \"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/um\"  -isystem \"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/shared\"  -isystem \"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/winrt\"  -isystem \"C:/Program Files (x86)/Windows Kits/10/Include/10.0.18362.0/cppwinrt\"  -isystem \"C:/Program Files (x86)/Windows Kits/NETFXSDK/4.8/Include/um\"  -D _DEBUG  -D _MT  -D _DLL  -D _CONSOLE  -D _UNICODE  -D UNICODE -std=c++17  \"E:/testdir/testdit/Project1/version.cpp\"",
+    "file": "E:/testdir/testdit/Project1/version.cpp"
+  }
+]
