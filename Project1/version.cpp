@@ -74,6 +74,10 @@ int main() {
 	/* データ表示 */
 	test.show();
 
+
+
+
+
 	return 0;
 
 }
