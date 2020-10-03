@@ -7,26 +7,30 @@ class Data
 private:
 	int data;
 	int data2;
+	int data3;
 
 public:
-	Data(int data, int data2);
+	Data(int data, int data2, int data3);
 	~Data();
 	virtual void DataShow() {
 		cout << "data:" << this->data << endl;
 		cout << "data2:" << this->data2 << endl;
+		cout << "data3:" << this->data3 << endl;
 	}
 };
 
-Data::Data(int data, int data2)
+Data::Data(int data, int data2, int data3)
 {
 	this->data = data;
 	this->data2 = data2;
+	this->data3 = data3;
 }
 
 Data::~Data()
 {
 	this->data = 0;
-	this->data = 0;
+	this->data2 = 0;
+	this->data3 = 0;
 }
 
 class DataCollect {
@@ -63,10 +67,10 @@ int main() {
 	DataCollect test(3);
 
 	/* データ格納 */
-	test.addData(new Data(12, 34));
-	test.addData(new Data(12, 34));
-	test.addData(new Data(12, 34));
-	test.addData(new Data(12, 34));
+	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
+	test.addData(new Data(12, 34, 56));
 	/* データ表示 */
 	test.show();
 
