@@ -13,6 +13,10 @@ typedef struct{
 
 
 
+
+
+
+
 class Data
 {
 /* ƒf[ƒ^ */
