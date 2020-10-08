@@ -8,6 +8,9 @@ typedef struct{
 	int data3;
 }data_type;
 
+
+
+
 class Data
 {
 /* ƒf[ƒ^ */
