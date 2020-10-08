@@ -1,21 +1,12 @@
 #include <iostream>
+#include "./testclass.h"
 using namespace std;
-
-#define MAX_COUNT
-#define ELEMNT_SIZE
 
 typedef struct{
 	int data;
 	int data2;
 	int data3;
 }data_type;
-
-
-
-
-
-
-
 
 class Data
 {
@@ -61,9 +52,7 @@ public:
 
 	void addData(Data *data) {
 		if (this->p >= this->limit) {
-#if defined (MAX_COUNT) && defined(ELEMNT_SIZE)
 			cout << "Data Full" << endl;
-#endif
 			return;
 		}
 		this->li[p++] = data;
@@ -94,8 +83,6 @@ int main() {
 	/* データ表示 */
 	test.show();
 
-	
-
 	uint8_t fast = 1;
 
 	const static uint8_t bitshit = 3;
@@ -108,6 +95,15 @@ int main() {
 	cout << "fast 1bit shiht:" << (data << 2) << endl;
 	cout << "fast 1bit shiht:" << (data << bitshit) << endl;
 	cout << "fast 1bit shiht:" << (data << 4) << endl;
+
+	string asa("dfsdfsdf");
+	int dsdfdfds(12);
+	
+	cout << "fast 1bit shiht:" << dsdfdfds << endl;
+
+	testd aaa(123,"cvdsfgdsgfdsg");
+
+	aaa.show();
 
 
 	return 0;
