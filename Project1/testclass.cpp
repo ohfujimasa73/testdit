@@ -12,6 +12,3 @@ void testd::show() {
 	cout << "name:" <<this->name << endl;
 
 }
-
-
-
