@@ -104,7 +104,5 @@ int main() {
 	testd aaa(123,"cvdsfgdsgfdsg");
 
 	aaa.show();
-
-
 	return 0;
 }
