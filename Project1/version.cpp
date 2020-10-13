@@ -8,6 +8,7 @@ typedef struct{
 	int data3;
 }data_type;
 zxcxz
+
 class Data
 {
 /* ƒf[ƒ^ */
