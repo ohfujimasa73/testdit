@@ -10,7 +10,6 @@ typedef struct{
 
 class Data
 {
-
 /* ƒf[ƒ^ */
 private:
 	data_type data;
