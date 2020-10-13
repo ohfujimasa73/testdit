@@ -9,3 +9,4 @@ public:
 	testd(int age, string name);
 	void show();
 };
+
