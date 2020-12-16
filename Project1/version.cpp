@@ -10,15 +10,9 @@ typedef struct{
 
 miomiomniomo
 
-
-
-
-
-
-
 class Data
 {
-/* ƒf[ƒ^ */
+/* ãƒ‡ãƒ¼ã‚¿ */
 private:
 	data_type data;
 
@@ -76,19 +70,19 @@ public:
 
 int main() {
 
-	/* ƒf[ƒ^Ši”[•Ï” */
+	/* ãƒ‡ãƒ¼ã‚¿æ ¼ç´å¤‰æ•° */
 	DataCollect test(1);
 
-	/* “ü—Íƒf[ƒ^ */
+	/* å…¥åŠ›ãƒ‡ãƒ¼ã‚¿ */
 	data_type input = { 12,34,67 };
 
-	/* ƒf[ƒ^Ši”[ */
+	/* ãƒ‡ãƒ¼ã‚¿æ ¼ç´ */
 	test.addData(new Data(input));
 	test.addData(new Data(input));
 	test.addData(new Data(input));
 	test.addData(new Data(input));
 
-	/* ƒf[ƒ^•\¦ */
+	/* ãƒ‡ãƒ¼ã‚¿è¡¨ç¤º */
 	test.show();
 
 	uint8_t fast = 1;
@@ -112,7 +106,5 @@ int main() {
 	testd aaa(123,"cvdsfgdsgfdsg");
 
 	aaa.show();
-
-
 	return 0;
 }
