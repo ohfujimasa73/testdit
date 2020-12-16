@@ -10,5 +10,4 @@ testd::testd(int age, string name) {
 void testd::show() {
 	cout << "age:" <<this->age << endl;
 	cout << "name:" <<this->name << endl;
-
 }

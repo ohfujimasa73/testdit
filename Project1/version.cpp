@@ -7,7 +7,7 @@ typedef struct{
 	int data2;
 	int data3;
 }data_type;
-zxcxz
+
 
 class Data
 {

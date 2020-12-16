@@ -1,2 +1,4 @@
 E:\testdir\testdit\Project1\Debug\Project1.exe
 E:\testdir\testdit\Project1\Debug\Project1.pdb
+E:\test_b\testdit\Project1\Debug\Project1.exe
+E:\test_b\testdit\Project1\Debug\Project1.pdb
